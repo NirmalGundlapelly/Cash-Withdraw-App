@@ -1,0 +1,68 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: aliceblue;
+}
+.card {
+  background-color: #150b3e;
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+}
+
+span {
+  background-color: #c7d2fe;
+  color: #585076;
+  padding: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.logoNameContainer {
+  display: flex;
+}
+.account-name {
+  color: #d4d2db;
+}
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  font-size: 30px;
+  font-weight: 500;
+}
+.your-balance {
+  font-size: 20px;
+  color: #585076;
+  font-weight: 500;
+}
+.in-rupees {
+  color: #585076;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: -5px;
+}
+.withdraw {
+  font-size: 20px;
+  font-weight: 500;
+  color: #d4d2db;
+}
+.choose-sum-text {
+  font-weight: 500;
+  color: #585076;
+}
+.denominations-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-left: -50px;
+  justify-content: center;
+  align-items: center;
+}
